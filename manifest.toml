@@ -81,7 +81,7 @@ ram.runtime = "50M"
     api.default = 5100
 
     [resources.apt]
-    packages = "postgresql, redirect, redis_server, git"
+    packages = "postgresql, redirect, redis-server, git"
 
     [resources.database]
     type = "postgresql"
